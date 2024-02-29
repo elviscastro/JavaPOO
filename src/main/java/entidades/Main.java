@@ -23,9 +23,9 @@ public class Main {
     System.out.printf("Area de Y: %.4f%n", y.getArea());
 
     if (x.getArea() > y.getArea()) {
-      System.out.println("Maior area: X");
+      System.out.println("- Maior area: X");
     } else {
-      System.out.println("Maior area: Y");
+      System.out.println("- Maior area: Y");
     }
 
     in.close();
